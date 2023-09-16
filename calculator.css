@@ -1,0 +1,154 @@
+.calculator-child,
+.calculator-item {
+  position: absolute;
+  top: 171px;
+  left: 452px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  box-shadow: 30px -20px 100px 10px rgba(0, 87, 255, 0.47);
+  width: 489px;
+  height: 473px;
+}
+.calculator-item {
+  box-shadow: -30px 20px 100px 10px rgba(251, 24, 78, 0.47);
+}
+.react-calculator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 36px;
+}
+.b,
+.group-child {
+  position: absolute;
+}
+.group-child {
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray);
+  width: 61px;
+  height: 61px;
+}
+.b {
+  top: 18px;
+  left: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 26px;
+}
+.b1,
+.group-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 61px;
+  height: 61px;
+}
+.b1 {
+  top: 20px;
+  left: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 21px;
+}
+.b2,
+.group-container {
+  position: absolute;
+  top: 0;
+  left: 75px;
+  width: 61px;
+  height: 61px;
+}
+.b2 {
+  top: 27px;
+  left: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 17px;
+}
+.b3,
+.group-frame {
+  position: absolute;
+  top: 0;
+  left: 150px;
+  width: 61px;
+  height: 61px;
+}
+.b3 {
+  top: 18px;
+  left: 19px;
+  display: inline-block;
+  width: 22px;
+  height: 27px;
+}
+.group-div,
+.group-parent {
+  position: absolute;
+  top: 0;
+  left: 225px;
+  width: 61px;
+  height: 61px;
+}
+.group-parent {
+  top: 243px;
+  left: 12px;
+  width: 286px;
+  color: var(--color-white);
+}
+.num-1 {
+  position: absolute;
+  top: 11px;
+  left: 19px;
+}
+.group-child1,
+.num-1-parent {
+  position: absolute;
+  width: 290px;
+  height: 50px;
+}
+.group-child1 {
+  top: 0;
+  left: 0;
+  border: 2px solid var(--color-gray);
+  box-sizing: border-box;
+}
+.num-1-parent {
+  top: 73px;
+  left: 10px;
+}
+.num-2,
+.num-2-parent {
+  position: absolute;
+  top: 11px;
+  left: 17px;
+}
+.num-2-parent {
+  top: 158px;
+  left: 10px;
+  width: 290px;
+  height: 50px;
+}
+.react-calculator-parent {
+  position: absolute;
+  top: 249px;
+  left: 541px;
+  width: 311px;
+  height: 304px;
+}
+.calculator {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 839px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray);
+  font-family: var(--font-montserrat);
+}
